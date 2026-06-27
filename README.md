@@ -1,12 +1,12 @@
-# Maison de Manner
+# LUMINA GINZA
 
-GitHub Pagesで公開しやすい、マナーサロン向けの静的ホームページです。
+GitHub Pagesで公開しやすい、Pyramid Resonance Sanctuary向けの静的ホームページです。
 
 参考サイトの情報設計をもとに、文章・画像・配色・レイアウトはオリジナルで作っています。
 
 ## 変更するとよい場所
 
-- `index.html` の `Maison de Manner`
+- `index.html` の `LUMINA GINZA`
 - `you@example.com`
 - レッスン名、料金、お知らせ、サロン住所
 - `assets/salon-hero.png` を自分の写真に差し替え

@@ -364,7 +364,13 @@ h3 {
   font-weight: 700;
 }
 
-.salon,
+.salon {
+  max-width: none;
+  background:
+    radial-gradient(circle at 50% 8%, rgba(255, 253, 248, 0.92), rgba(238, 241, 235, 0.72) 46%, rgba(238, 241, 235, 0.94)),
+    var(--mist);
+}
+
 .voices {
   max-width: none;
   background: var(--mist);
@@ -378,18 +384,20 @@ h3 {
 }
 
 .salon-photo {
-  max-width: 760px;
+  max-width: 940px;
   overflow: hidden;
   border: 1px solid rgba(185, 145, 72, 0.26);
   border-radius: 8px;
   background: var(--ivory);
-  box-shadow: var(--shadow);
+  box-shadow: 0 24px 80px rgba(29, 35, 32, 0.12);
 }
 
 .salon-photo img {
   display: block;
   inline-size: 100%;
-  block-size: auto;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  object-position: center 58%;
 }
 
 .how {

@@ -322,12 +322,12 @@ h3 {
 .section {
   max-width: 1180px;
   margin: 0 auto;
-  padding: clamp(70px, 9vw, 124px) clamp(20px, 5vw, 42px);
+  padding: clamp(54px, 7vw, 92px) clamp(20px, 5vw, 42px);
 }
 
 .section-heading {
   max-width: 760px;
-  margin-bottom: 34px;
+  margin-bottom: 26px;
 }
 
 .section-heading.compact {
@@ -366,6 +366,7 @@ h3 {
 
 .salon {
   max-width: none;
+  padding-bottom: clamp(42px, 5vw, 66px);
   background:
     radial-gradient(circle at 50% 8%, rgba(255, 253, 248, 0.92), rgba(238, 241, 235, 0.72) 46%, rgba(238, 241, 235, 0.94)),
     var(--mist);
@@ -384,24 +385,27 @@ h3 {
 }
 
 .salon-photo {
-  max-width: 940px;
+  max-width: 880px;
   overflow: hidden;
   border: 1px solid rgba(185, 145, 72, 0.26);
   border-radius: 8px;
   background: var(--ivory);
-  box-shadow: 0 24px 80px rgba(29, 35, 32, 0.12);
+  box-shadow:
+    0 18px 70px rgba(29, 35, 32, 0.12),
+    0 0 0 14px rgba(255, 253, 248, 0.46);
 }
 
 .salon-photo img {
   display: block;
   inline-size: 100%;
-  aspect-ratio: 16 / 10;
+  aspect-ratio: 16 / 7.5;
   object-fit: cover;
-  object-position: center 58%;
+  object-position: center 68%;
 }
 
 .how {
   max-width: none;
+  padding-top: clamp(42px, 5vw, 66px);
   background: var(--ivory);
 }
 

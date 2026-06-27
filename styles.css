@@ -377,6 +377,61 @@ h3 {
   margin-right: auto;
 }
 
+.salon-photo {
+  max-width: 760px;
+  overflow: hidden;
+  border: 1px solid rgba(185, 145, 72, 0.26);
+  border-radius: 8px;
+  background: var(--ivory);
+  box-shadow: var(--shadow);
+}
+
+.salon-photo img {
+  display: block;
+  inline-size: 100%;
+  block-size: auto;
+}
+
+.how {
+  max-width: none;
+  background: var(--ivory);
+}
+
+.how > * {
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.how-gallery {
+  display: grid;
+  gap: 22px;
+}
+
+.how-panel {
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid rgba(185, 145, 72, 0.22);
+  border-radius: 8px;
+  background: var(--paper);
+  box-shadow: 0 22px 60px rgba(29, 35, 32, 0.1);
+}
+
+.how-panel img {
+  display: block;
+  inline-size: 100%;
+  block-size: auto;
+}
+
+.how-panel.primary {
+  max-width: 1040px;
+}
+
+.how-panel.secondary {
+  max-width: 1040px;
+  margin-left: auto;
+}
+
 .feature-grid,
 .voice-grid,
 .access-grid {
